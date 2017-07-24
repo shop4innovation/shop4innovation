@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/money_d_luffy_">
+
+    <EditText
+        android:id="@+id/Edittextnom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="@android:dimen/app_icon_size"
+        android:paddingLeft="32dp"
+        android:hint="Nom"
+        android:textColorHint="#FFFFFFFF"
+        />
+
+    <EditText
+        android:id="@+id/Edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Edittextnom"
+        android:layout_marginTop="@android:dimen/app_icon_size"
+        android:paddingLeft="32dp"
+        android:hint="E_mail"
+        android:textColorHint="#FFFFFFFF"
+        />
+
+    <EditText
+        android:id="@+id/Edittext1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Edittext"
+        android:layout_marginBottom="@android:dimen/app_icon_size"
+        android:layout_marginTop="@android:dimen/app_icon_size"
+        android:paddingLeft="32dp"
+        android:hint="Mdp"
+        android:textColorHint="#FFFFFFFF"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/Edittext1"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/B1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Capture"
+            />
+
+
+
+    </LinearLayout>
+</RelativeLayout>

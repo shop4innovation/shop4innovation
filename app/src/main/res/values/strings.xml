@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="register_error">Register_Failed</string>
+    <string name="register_confirm">Bienvenu Monster</string>
+    <string name="facebook_app_id">1204391379670631</string>
+    <string name="fb_login_protocol_scheme">fb1204391379670631</string>
+</resources>
